@@ -34,8 +34,6 @@ def copy_envrc(src_folder: str):
                 continue
             shutil.copy(os.path.join(root, ".envrc"), envrc_target)
 
-def main():
-    print("Hello from my-repo-envrc!")
 
 
 if __name__ == "__main__":
